@@ -22,7 +22,7 @@ pipeline{
                 
                 script{
                     
-                    bat 'ls -l'
+                    sh 'ls -l'
                 }
             }
         }
