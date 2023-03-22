@@ -22,7 +22,7 @@ pipeline{
                 
                 script{
                     
-                    bash 'ls -l'
+                    bash 'mvn test'
                 }
             }
         }
