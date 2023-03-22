@@ -22,7 +22,7 @@ pipeline{
                 
                 script{
                     
-                    sh 'ls -l'
+                    bash 'ls -l'
                 }
             }
         }
