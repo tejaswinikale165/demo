@@ -50,7 +50,7 @@ pipeline{
                 
                 script{
                     
-                    withSonarQubeEnv(credentialsId: 'sonar-api') {
+                    withSonarQubeEnv(credentialsId: 'jenkin-auth') {
                         
                         sh 'mvn clean package sonar:sonar'
                     }
